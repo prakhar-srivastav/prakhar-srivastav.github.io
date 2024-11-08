@@ -1,0 +1,32 @@
+<!-- blog/templates/home.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakhar's Blog</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="/">Home</a>
+            <a href="/cv/">CV</a>
+            <a href="/physics/">Physics</a>
+            <a href="/algorithms/">Algorithms</a>
+            <a href="/technology/">Technology</a>
+            <a href="/connect/">Connect</a>
+        </div>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Blog</h1>
+        <p>Explore my thoughts on various topics ranging from Physics to Technology.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Prakhar Srivastav</p>
+    </footer>
+</body>
+</html>
